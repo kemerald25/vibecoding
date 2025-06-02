@@ -59,7 +59,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, role, content, avatar, 
       ))}
     </div>
     <p className="text-gray-300 mb-6 italic leading-relaxed group-hover:text-gray-200 transition-colors">
-      "{content}"
+    &quot;{content}&quot;
     </p>
     <div className="flex items-center">
       <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center text-white font-bold mr-4 group-hover:scale-110 transition-transform">
